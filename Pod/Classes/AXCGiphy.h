@@ -36,6 +36,8 @@ extern NSString * const kGiphyPublicAPIKey;
 @property (readonly, strong, nonatomic) AXCGiphyImageDownsampled * fixedHeightDownsampledImage;
 /** Modified version of the GIF with fixed width of 200 */
 @property (readonly, strong, nonatomic) AXCGiphyImageFixed * fixedWidthImage;
+/** Modified version of the GIF with fixed width of 100 */
+@property (readonly, strong, nonatomic) AXCGiphyImageFixed * fixedWidthSmallImage;
 /** Still image of the GIF with fixed width of 200 */
 @property (readonly, strong, nonatomic) AXCGiphyImageDownsampled * fixedWidthStillImage;
 /** Smaller, lower qualitiy version of the GIF with fixed width of 200 */
