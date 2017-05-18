@@ -124,7 +124,7 @@ static NSString * kGiphyAPIKey;
 
 + (NSURLRequest *) requestForEndPoint:(NSString *) endpoint params:(NSDictionary *) params
 {
-    NSString * base = @"http://api.giphy.com/v1/gifs";
+    NSString * base = @"https://api.giphy.com/v1/gifs";
     NSString * withEndPoint = [NSString stringWithFormat:@"%@%@", base, endpoint];
     NSError * error;
     
